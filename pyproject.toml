@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "airflow-docker"
+version = "0.1.0"
+description = ""
+authors = ["Luis Ek <Luis.Ek.-ND@disney.com>"]
+readme = "README.md"
+packages = [{include = "airflow_docker"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
